@@ -5,7 +5,7 @@ public class Subject {
     private static final Subject Instance;
     static {
         maxCredits = 100;
-        Instance = new Subject("Java programming", 88);
+        Instance = new Subject("Java programming", 90);
     }
     private  String name;
     private  int credits;
